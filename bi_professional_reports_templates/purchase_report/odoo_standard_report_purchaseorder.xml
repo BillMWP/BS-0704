@@ -67,28 +67,28 @@
                                     <div style="background-color:#6495ED  !important;border: 1px !important; border-style: solid !important; border-color: #fff; color:#fff !important; ">
                                         <span>
                                             <span>採購單:</span>
-                                            <span style="padding-left:50px;">
+                                            <span style="padding-left:50px;padding-right:5px;" class="float-right">
                                                 <t t-esc="o.name"/>
                                             </span>&amp;nbsp;
                                         </span>
                                     </div>
                                     <span >日期 :</span>
-                                    <span style="padding-left:50px;">
+                                    <span style="padding-left:50px;padding-right:5px;" class="float-right">
                                         <t t-esc="o.date_order.strftime('%d/%m/%Y')"/>
                                     </span>
                                     <br/>
                                     <span>採購員 :</span>
-                                    <span style="padding-left:5px;">
+                                    <span style="padding-left:5px;padding-right:5px;" class="float-right">
                                         <t t-esc="o.user_id.name"/>
                                     </span>
                                     <br/>
                                     <span>版本:</span>
-                                    <span style="padding-left:5px;">
+                                    <span style="padding-left:5px;padding-right:5px;" class="float-right">
                                         <t t-esc="o.version_no"/>
                                     </span>
                                     <br/>
                                     <span>頁:</span>
-                                    <span style="padding-left:5px;">
+                                    <span style="padding-left:5px;padding-right:5px;" class="float-right">
                                         <span class="page"/>
                                         /
                                         <span class="topage"/>
@@ -311,53 +311,8 @@
                         <span t-field="o.notes"/>
                     </div>
                     <div class="oe_structure"/>
-                    <!-- <div class="footer">
-                        <div class="text-center">
-                            <span>頁數: </span><span class="page" /> / <span class="topage" />
-                        </div>
-                    </div> -->
                 </div>
             </t>
         </template>
     </data>
 </odoo>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
