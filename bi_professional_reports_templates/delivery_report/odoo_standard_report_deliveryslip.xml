@@ -73,12 +73,12 @@
                                 </div>
                                 <span>Sale Order:</span>
                                 <span class="float-right" style="padding-right: 5px;">
-                                    <t t-esc="o.origin"/>
+                                    <t t-esc="o.x_studio_customer_reference_so"/>
                                 </span>
                                 <br/>
                                 <span>Date:</span>
                                 <span class="float-right"  style="padding-right: 5px;">
-                                    
+                                    <t t-esc="o.scheduled_date" t-options='{"widget": "date", "format": "d/MM/yyyy"}'/>
                                 </span>
                                 <br/>
                                 <span>Customer reference:</span>
