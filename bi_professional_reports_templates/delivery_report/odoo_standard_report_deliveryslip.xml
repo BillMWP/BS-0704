@@ -73,7 +73,7 @@
                                 </div>
                                 <span>Sale Order:</span>
                                 <span class="float-right" style="padding-right: 5px;">
-                                    <t t-esc="o.origin"/>
+                                    <p>abc</p>
                                 </span>
                                 <br/>
                                 <span>Date:</span>
